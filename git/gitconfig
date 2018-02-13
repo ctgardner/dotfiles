@@ -1,0 +1,14 @@
+# This is Git's per-user configuration file.
+[user]
+name = Callum Gardner
+email = ctgardner.australia@gmail.com
+
+[alias]
+br = branch
+ci = commit
+co = checkout
+cp = cherry-pick
+lg = log --all --oneline --graph
+rb = rebase
+sh = show
+st = status
