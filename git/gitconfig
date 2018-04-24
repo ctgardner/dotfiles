@@ -4,6 +4,7 @@ name = Callum Gardner
 email = ctgardner.australia@gmail.com
 
 [alias]
+amend = commit --amend --no-edit
 br = branch
 ci = commit
 co = checkout
