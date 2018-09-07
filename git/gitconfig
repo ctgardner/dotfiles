@@ -14,4 +14,4 @@ dc = diff --cached
 lg = log --all --oneline --graph --pretty=format:\"%C(yellow)%h %Cgreen%ad %Cblue%an%Cred%d %Creset%s\" --date=format:\"%d %b %H:%M\"
 rb = rebase
 sh = show
-st = status
+st = status --short --branch
