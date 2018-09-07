@@ -9,7 +9,7 @@ br = branch
 ci = commit
 co = checkout
 cp = cherry-pick
-lg = log --all --oneline --graph --pretty=format:\"%C(yellow)%h %Cgreen%ad %Cblue%an%Cred%d %Creset%s\" --date=format:\"%m.%d %H:%M\"
+lg = log --all --oneline --graph --pretty=format:\"%C(yellow)%h %Cgreen%ad %Cblue%an%Cred%d %Creset%s\" --date=format:\"%d %b %H:%M\"
 rb = rebase
 sh = show
 st = status
