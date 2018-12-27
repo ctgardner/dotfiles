@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# ls
+alias l="ls -lhF"
+alias la="ls -lahF"
+alias lsd="ls -lhF | grep '^d'"
+
