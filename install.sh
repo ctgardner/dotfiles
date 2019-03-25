@@ -1,5 +1,6 @@
 #!/bin/bash
 
+./homebrew/install.sh
 ./screencapture.sh
 
 # install asdf

@@ -1,0 +1,8 @@
+1password
+docker
+firefox
+iterm2
+muzzle
+signal
+spectacle
+whatsapp
