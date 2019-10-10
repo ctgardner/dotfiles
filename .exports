@@ -1,4 +1,8 @@
 #!/bin/bash
 
+export HISTSIZE=5000
+export HISTFILESIZE=$HISTSIZE
+export HISTTIMEFORMAT='%F %T '
 export HISTCONTROL=ignoreboth:erasedups
+export HISTIGNORE=history:h:hg
 
