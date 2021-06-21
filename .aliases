@@ -1,5 +1,22 @@
 #!/bin/bash
 
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+
+# Lock the screen (when going AFK)
+alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+
+# Bell when the program is finished. It is useful for some
+# time-consuming operations. Like:
+# > npm install | a
+alias a="terminal-notifier -sound default"
+
+# Just show the notification without context:
+# > poetry install && aa
+alias aa="a -message Done"
+
 alias h="history"
 alias hg="history | grep -i "
 
@@ -8,3 +25,5 @@ alias l="ls -lhF"
 alias la="ls -lahF"
 alias lsd="ls -lhF | grep '^d'"
 
+# Show local ip:
+alias localip="ipconfig getifaddr en0"
